@@ -92,3 +92,13 @@ a:hover{
     color: #ff8000;
     margin-bottom: 1rem;
 }
+/* sidebar button */
+
+.brand button{
+    font-size: 3rem;
+    color: #ffffff;
+    background: none;
+    border: none;
+    padding: .5rem;
+    cursor: pointer;
+}
