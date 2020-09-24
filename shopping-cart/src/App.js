@@ -1,10 +1,11 @@
 import React from 'react';
-// import logo from './logo.svg';
-import { BrowserRouter, Route,Link } from 'react-router-dom'
+import { Route,Link } from 'react-router-dom'
 import './App.css';
 import data from './component/data';
 import { Dashboard } from './component/Dashboard';
 import { ProductDetails } from './component/ProductDetails';
+import { ProductsCart } from './component/ProductsCart';
+import { Signin } from './component/SIgnin';
 
 function App() {
   const openSidebarMenu=()=>{
@@ -14,7 +15,6 @@ function App() {
     document.querySelector(".sidebar").classList.remove("open");
   }
   return (
-    //   <BrowserRouter>
           <div class="grid-container">
     <header class="header">
         <div class="brand">
@@ -22,8 +22,8 @@ function App() {
             <Link to="/">Amazon</Link>
         </div>
     <div class="header-links">
-        <a href="cart.html">Cart</a>
-        <a href="signin.html">Signin</a>
+        <Link to="/products/cart">Cart</Link>{' '}
+        <Link to="/signin">Signin</Link>
     </div>
 </header>
     <aside class="sidebar">
@@ -42,14 +42,14 @@ function App() {
         <div class="content">
             <Route path="/"  exact ={true} component={Dashboard}></Route>
             <Route path="/product/:id" component={ProductDetails}></Route>
+            <Route path="/signin" component={Signin}></Route>
+            <Route path="/products/cart" component={ProductsCart}></Route>
     </div>
     </main>
     <footer class="footer">
         All rights received... 2020
     </footer>
 </div>
-
-// </BrowserRouter>
   );
 }
 
