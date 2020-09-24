@@ -3,23 +3,95 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const openSidebarMenu=()=>{
+    document.querySelector(".sidebar").classList.add("open");
+  }
+  const closeSidebarMenu=()=>{
+    document.querySelector(".sidebar").classList.remove("open");
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class="grid-container">
+    <header class="header">
+        <div class="brand">
+            <button onClick={openSidebarMenu}>&#9776;</button>
+            <a href="index.html">Amazon</a>
+        </div>
+    <div class="header-links">
+        <a href="cart.html">Cart</a>
+        <a href="signin.html">Signin</a>
     </div>
+</header>
+    <aside class="sidebar">
+        <h3>Shoping Categories</h3>
+        <button class="sidebar-close-button" onClick={closeSidebarMenu}>x</button>
+        <ul>
+            <li>
+                <a her="index.html">Pants</a>
+            </li>
+            <li>
+                <a her="index.html">Shirts</a>
+            </li>
+        </ul>
+    </aside>
+    <main class="main">
+        <div class="content">
+         <ul class="products">
+            <li class="product">
+            <img class= "product-image" src="images/short_1.jpeg" alt="product"/>
+            <div class="product-name"><a href="product.html">Shart</a></div>
+            <div class="product-brand">Nike</div>
+            <div class="product-price">$12</div>
+            <div class="product-rating">4.5 starts (10 Reviews)</div>
+            </li>
+            <li class="product">
+                <img class= "product-image" src="images/short_1.jpeg" alt="product"/>
+                <div class="product-name"><a href="product.html">Shart</a></div>
+                <div class="product-brand">Nike</div>
+                <div class="product-price">$12</div>
+                <div class="product-rating">4.5 starts (10 Reviews)</div>
+            </li>
+            <li class="product">
+                    <img class= "product-image" src="images/short_1.jpeg" alt="product"/>
+                    <div class="product-name"><a href="product.html">Shart</a></div>
+                    <div class="product-brand">Nike</div>
+                    <div class="product-price">$12</div>
+                    <div class="product-rating">4.5 starts (10 Reviews)</div>
+            </li>
+            <li class="product">
+                        <img class= "product-image" src="images/short_1.jpeg" alt="product"/>
+                        <div class="product-name"><a href="product.html">Shart</a></div>
+                        <div class="product-brand">Nike</div>
+                        <div class="product-price">$12</div>
+                        <div class="product-rating">4.5 starts (10 Reviews)</div>
+            </li>
+            <li class="product">
+                            <img class= "product-image" src="images/short_1.jpeg" alt="product"/>
+                            <div class="product-name"><a href="product.html">Shart</a></div>
+                            <div class="product-brand">Nike</div>
+                            <div class="product-price">$12</div>
+                            <div class="product-rating">4.5 starts (10 Reviews)</div>
+            </li>
+            <li class="product">
+                            <img class= "product-image" src="images/short_1.jpeg" alt="product"/>
+                            <div class="product-name"><a href="product.html">Shart</a></div>
+                            <div class="product-brand">Nike</div>
+                            <div class="product-price">$12</div>
+                            <div class="product-rating">4.5 starts (10 Reviews)</div>
+            </li>
+            <li class="product">
+                            <img class= "product-image" src="images/short_1.jpeg" alt="product"/>
+                            <div class="product-name"><a href="product.html">Shart</a></div>
+                            <div class="product-brand">Nike</div>
+                            <div class="product-price">$12</div>
+                            <div class="product-rating">4.5 starts (10 Reviews)</div>
+            </li>
+        </ul>
+    </div>
+    </main>
+    <footer class="footer">
+        All rights received... 2020
+    </footer>
+</div>
   );
 }
 
