@@ -1,7 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import { BrowserRouter, Route,Link } from 'react-router-dom'
 import './App.css';
 import data from './component/data';
+import { Dashboard } from './component/Dashboard';
+import { ProductDetails } from './component/ProductDetails';
 
 function App() {
   const openSidebarMenu=()=>{
@@ -11,11 +14,12 @@ function App() {
     document.querySelector(".sidebar").classList.remove("open");
   }
   return (
-    <div class="grid-container">
+    //   <BrowserRouter>
+          <div class="grid-container">
     <header class="header">
         <div class="brand">
             <button onClick={openSidebarMenu}>&#9776;</button>
-            <a href="index.html">Amazon</a>
+            <Link to="/">Amazon</Link>
         </div>
     <div class="header-links">
         <a href="cart.html">Cart</a>
@@ -36,24 +40,16 @@ function App() {
     </aside>
     <main class="main">
         <div class="content">
-         <ul class="products">
-           {console.log("===", data.products)}
-           { data.products.map((product,index)=>{ return  <li class="product" key={index}>
-            <img class= "product-image" src={product.image} alt="product"/>
-            <div class="product-name"><a href="product.html">{product.name}</a></div>
-            <div class="product-brand">{product.brand}</div>
-            <div class="product-price">{product.price}</div>
-            <div class="product-rating">`${product.rating} starts (${product.no_rating} Reviews)`</div>
-            </li>
-           })
-           };
-        </ul>
+            <Route path="/"  exact ={true} component={Dashboard}></Route>
+            <Route path="/product/:id" component={ProductDetails}></Route>
     </div>
     </main>
     <footer class="footer">
         All rights received... 2020
     </footer>
 </div>
+
+// </BrowserRouter>
   );
 }
 

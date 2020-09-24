@@ -7,6 +7,9 @@ body{
   height: 100vh;
   margin: 0;
 }
+#root{
+  height: 100%;
+}
 .grid-container{
   display: grid;
   grid-template-areas: "header" "main" "footer";
@@ -89,7 +92,7 @@ a:hover{
   font-weight: bold;
 }
 .product-rating{
-  color: #ff8000;
+  /* color: #ff8000; */
   margin-bottom: 1rem;
 }
 /* sidebar button */
