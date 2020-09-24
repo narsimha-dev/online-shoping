@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import data from './component/data';
 
 function App() {
   const openSidebarMenu=()=>{
@@ -36,55 +37,16 @@ function App() {
     <main class="main">
         <div class="content">
          <ul class="products">
-            <li class="product">
-            <img class= "product-image" src="images/short_1.jpeg" alt="product"/>
-            <div class="product-name"><a href="product.html">Shart</a></div>
-            <div class="product-brand">Nike</div>
-            <div class="product-price">$12</div>
-            <div class="product-rating">4.5 starts (10 Reviews)</div>
+           {console.log("===", data.products)}
+           { data.products.map((product,index)=>{ return  <li class="product" key={index}>
+            <img class= "product-image" src={product.image} alt="product"/>
+            <div class="product-name"><a href="product.html">{product.name}</a></div>
+            <div class="product-brand">{product.brand}</div>
+            <div class="product-price">{product.price}</div>
+            <div class="product-rating">`${product.rating} starts (${product.no_rating} Reviews)`</div>
             </li>
-            <li class="product">
-                <img class= "product-image" src="images/short_1.jpeg" alt="product"/>
-                <div class="product-name"><a href="product.html">Shart</a></div>
-                <div class="product-brand">Nike</div>
-                <div class="product-price">$12</div>
-                <div class="product-rating">4.5 starts (10 Reviews)</div>
-            </li>
-            <li class="product">
-                    <img class= "product-image" src="images/short_1.jpeg" alt="product"/>
-                    <div class="product-name"><a href="product.html">Shart</a></div>
-                    <div class="product-brand">Nike</div>
-                    <div class="product-price">$12</div>
-                    <div class="product-rating">4.5 starts (10 Reviews)</div>
-            </li>
-            <li class="product">
-                        <img class= "product-image" src="images/short_1.jpeg" alt="product"/>
-                        <div class="product-name"><a href="product.html">Shart</a></div>
-                        <div class="product-brand">Nike</div>
-                        <div class="product-price">$12</div>
-                        <div class="product-rating">4.5 starts (10 Reviews)</div>
-            </li>
-            <li class="product">
-                            <img class= "product-image" src="images/short_1.jpeg" alt="product"/>
-                            <div class="product-name"><a href="product.html">Shart</a></div>
-                            <div class="product-brand">Nike</div>
-                            <div class="product-price">$12</div>
-                            <div class="product-rating">4.5 starts (10 Reviews)</div>
-            </li>
-            <li class="product">
-                            <img class= "product-image" src="images/short_1.jpeg" alt="product"/>
-                            <div class="product-name"><a href="product.html">Shart</a></div>
-                            <div class="product-brand">Nike</div>
-                            <div class="product-price">$12</div>
-                            <div class="product-rating">4.5 starts (10 Reviews)</div>
-            </li>
-            <li class="product">
-                            <img class= "product-image" src="images/short_1.jpeg" alt="product"/>
-                            <div class="product-name"><a href="product.html">Shart</a></div>
-                            <div class="product-brand">Nike</div>
-                            <div class="product-price">$12</div>
-                            <div class="product-rating">4.5 starts (10 Reviews)</div>
-            </li>
+           })
+           };
         </ul>
     </div>
     </main>

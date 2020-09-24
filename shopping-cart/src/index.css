@@ -105,6 +105,7 @@ a:hover{
 .sidebar{
   position: fixed;
   width: 30rem;
+  transition: all .5se;
   transform: translateX(-30rem);
   background-color: #f0f0f0f0;
   height: 100%;
