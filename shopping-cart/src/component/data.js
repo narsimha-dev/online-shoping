@@ -1,7 +1,7 @@
 export default { 
     products:[
         {
-            id:1,
+            id:"1",
             name: "shart",
             brand:"addos",
             price:"$ 1",
@@ -10,7 +10,7 @@ export default {
             image:"/images/shart.jpg"
         },
         {
-            id:2,
+            id:"2",
             name: "pant",
             brand:"Crocodal",
             price: "$ 2",
@@ -19,7 +19,7 @@ export default {
             image:"/images/pant.jpg"
         },
         {
-            id:3,
+            id:"3",
             name: "short",
             brand:"Nike",
             price:"$ 3",
@@ -28,7 +28,7 @@ export default {
             image:"/images/short.jpg"
         },
         {
-            id:4,
+            id:"4",
             name: "shart",
             brand:"addos",
             price:"$ 4",
@@ -37,7 +37,7 @@ export default {
             image:"/images/shart.jpg"
         },
         {
-            id:5,
+            id:"5",
             name: "pant",
             brand:"Crocodal",
             price: "$ 5",
@@ -46,7 +46,7 @@ export default {
             image:"/images/pant.jpg"
         },
         {
-            id:6,
+            id:"6",
             name: "short",
             brand:"Nike",
             price:"$ 6",
@@ -55,7 +55,7 @@ export default {
             image:"/images/short.jpg"
         },
         {
-            id:7,
+            id:"7",
             name: "shart",
             brand:"addos",
             price:"$ 7",
@@ -64,7 +64,7 @@ export default {
             image:"/images/shart.jpg"
         },
         {
-            id:8,
+            id:"8",
             name: "pant",
             brand:"Crocodal",
             price: "$ 8",
@@ -73,7 +73,7 @@ export default {
             image:"/images/pant.jpg"
         },
         {
-            id:9,
+            id:"9",
             name: "short",
             brand:"Nike",
             price:"$ 9",
@@ -82,7 +82,7 @@ export default {
             image:"/images/short.jpg"
         },
         {
-            id:10,
+            id:"10",
             name: "shart",
             brand:"addos",
             price:"$ 10",
@@ -91,7 +91,7 @@ export default {
             image:"/images/shart.jpg"
         },
         {
-            id:11,
+            id:"11",
             name: "pant",
             brand:"Crocodal",
             price: "$ 11",
@@ -100,7 +100,7 @@ export default {
             image:"/images/pant.jpg"
         },
         {
-            id:12,
+            id:"12",
             name: "short",
             brand:"Nike",
             price:"$ 12",
@@ -109,7 +109,7 @@ export default {
             image:"/images/short.jpg"
         },
         {
-            id:13,
+            id:"13",
             name: "shart",
             brand:"addos",
             price:"$ 13",
@@ -118,7 +118,7 @@ export default {
             image:"/images/shart.jpg"
         },
         {
-            id:14,
+            id:"14",
             name: "pant",
             brand:"Crocodal",
             price: "$ 14",
@@ -127,7 +127,7 @@ export default {
             image:"/images/pant.jpg"
         },
         {
-            id:15,
+            id:"15",
             name: "short",
             brand:"Nike",
             price:"$ 15",
@@ -136,7 +136,7 @@ export default {
             image:"/images/short.jpg"
         },
         {
-            id:16,
+            id:"16",
             name: "shart",
             brand:"addos",
             price:"$ 16",
@@ -145,7 +145,7 @@ export default {
             image:"/images/shart.jpg"
         },
         {
-            id:17,
+            id:"17",
             name: "pant",
             brand:"Crocodal",
             price: "$ 17",
@@ -154,7 +154,7 @@ export default {
             image:"/images/pant.jpg"
         },
         {
-            id:18,
+            id:"18",
             name: "short",
             brand:"Nike",
             price:"$ 18",
@@ -163,7 +163,7 @@ export default {
             image:"/images/short.jpg"
         },
         {
-            id:19,
+            id:"19",
             name: "shart",
             brand:"addos",
             price:"$ 19",
@@ -172,7 +172,7 @@ export default {
             image:"/images/shart.jpg"
         },
         {
-            id:20,
+            id:"20",
             name: "pant",
             brand:"Crocodal",
             price: "$ 20",
@@ -181,7 +181,7 @@ export default {
             image:"/images/pant.jpg"
         },
         {
-            id:21,
+            id:"21",
             name: "short",
             brand:"Nike",
             price:"$ 21",

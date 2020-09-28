@@ -1,7 +1,15 @@
 import React from 'react';
+import data from './data';
+import SingleProductDetails from './LoadProductDetails';
 
-export const ProductDetails=(props)=>{
-    console.log('product Details: ',props.match.params.id);
+function ProductDetails(props){
     const pId=props.match.params.id;
-    return <div>ProductDetails</div>
+    const product=data.products.find(x=>x.id===pId);
+return <div>
+        ProductDetails: {product.name}
+        <ul className="products">
+            <SingleProductDetails product={product}/>
+            </ul>
+</div>
 }
+export default ProductDetails;

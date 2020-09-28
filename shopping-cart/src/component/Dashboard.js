@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link,useLocation  } from 'react-router-dom';
-import { LoadProducts } from './LoadProducts';
+// import { LoadProducts } from './LoadProducts';
 import {FooterPage } from './FooterPage';
+import data from './data';
+import SingleProductDetails from './LoadProductDetails';
 
 const Dashboard=(props)=>{
     const location = useLocation();
@@ -40,7 +42,9 @@ return  <div className="grid-container">
 <span>Path : {location.pathname}</span>
 <main className="main">
     <div className="content">
-        <LoadProducts/>
+    <ul className="products">
+    { data.products.map(product=>{ return <SingleProductDetails product={product}/>})}
+           </ul>
 </div>
 </main>
 <FooterPage/>

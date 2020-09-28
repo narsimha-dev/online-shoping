@@ -2,7 +2,7 @@ import React from 'react';
 import { Route } from 'react-router-dom'
 import Dashboard from '../Dashboard';
 import { Signin } from '../Signin';
-import { ProductsCart } from '../ProductsCart';
+import {ProductsCart} from '../ProductsCart';
 import ProductDetails from '../ProductDetails';
 
 export const MainRouter=()=>{
