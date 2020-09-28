@@ -1,8 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link,useLocation  } from 'react-router-dom';
 import { LoadProducts } from './LoadProducts';
+import {FooterPage } from './FooterPage';
 
 const Dashboard=(props)=>{
+    const location = useLocation();
+    console.log("location.pathname: ",location.pathname);
+    console.log("",location.pathname);
+
     const openSidebarMenu=()=>{
         document.querySelector(".sidebar").classList.add("open");
       }
@@ -32,14 +37,13 @@ return  <div className="grid-container">
         </li>
     </ul>
 </aside>
+<span>Path : {location.pathname}</span>
 <main className="main">
     <div className="content">
         <LoadProducts/>
 </div>
 </main>
-<footer className="footer">
-    All rights received... 2020
-</footer>
+<FooterPage/>
 </div>
 }
 export default Dashboard;
