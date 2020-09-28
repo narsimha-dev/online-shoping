@@ -7,7 +7,8 @@ export default {
             price:"$ 1",
             rating:3.1,
             no_rarting: 3,
-            image:"/images/shart.jpg"
+            image:"/images/shart.jpg",
+            description:"My first 5 stars rating in Flipkart, worth every penny, the glass fits perfectly to your phone without any bubbles and the smoothness of the glass is simply wow, I didn't expected it would be so smooth at the given price but it definitely went far ahead my expectations."
         },
         {
             id:"2",
@@ -16,7 +17,8 @@ export default {
             price: "$ 2",
             rating:2.5,
             no_rarting: 7,
-            image:"/images/pant.jpg"
+            image:"/images/pant.jpg",
+            description:"My first 5 stars rating in Flipkart, worth every penny, the glass fits perfectly to your phone without any bubbles and the smoothness of the glass is simply wow, I didn't expected it would be so smooth at the given price but it definitely went far ahead my expectations."
         },
         {
             id:"3",
@@ -25,7 +27,8 @@ export default {
             price:"$ 3",
             rating:3.5,
             no_rarting: 5,
-            image:"/images/short.jpg"
+            image:"/images/short.jpg",
+            description:"My first 5 stars rating in Flipkart, worth every penny, the glass fits perfectly to your phone without any bubbles and the smoothness of the glass is simply wow, I didn't expected it would be so smooth at the given price but it definitely went far ahead my expectations."
         },
         {
             id:"4",
@@ -34,7 +37,8 @@ export default {
             price:"$ 4",
             rating:3.1,
             no_rarting: 3,
-            image:"/images/shart.jpg"
+            image:"/images/shart.jpg",
+            description:"My first 5 stars rating in Flipkart, worth every penny, the glass fits perfectly to your phone without any bubbles and the smoothness of the glass is simply wow, I didn't expected it would be so smooth at the given price but it definitely went far ahead my expectations."
         },
         {
             id:"5",
@@ -43,7 +47,8 @@ export default {
             price: "$ 5",
             rating:2.5,
             no_rarting: 7,
-            image:"/images/pant.jpg"
+            image:"/images/pant.jpg",
+            description:"My first 5 stars rating in Flipkart, worth every penny, the glass fits perfectly to your phone without any bubbles and the smoothness of the glass is simply wow, I didn't expected it would be so smooth at the given price but it definitely went far ahead my expectations."
         },
         {
             id:"6",
@@ -52,7 +57,8 @@ export default {
             price:"$ 6",
             rating:3.5,
             no_rarting: 5,
-            image:"/images/short.jpg"
+            image:"/images/short.jpg",
+            description:"My first 5 stars rating in Flipkart, worth every penny, the glass fits perfectly to your phone without any bubbles and the smoothness of the glass is simply wow, I didn't expected it would be so smooth at the given price but it definitely went far ahead my expectations."
         },
         {
             id:"7",
@@ -61,7 +67,8 @@ export default {
             price:"$ 7",
             rating:3.1,
             no_rarting: 3,
-            image:"/images/shart.jpg"
+            image:"/images/shart.jpg",
+            description:"My first 5 stars rating in Flipkart, worth every penny, the glass fits perfectly to your phone without any bubbles and the smoothness of the glass is simply wow, I didn't expected it would be so smooth at the given price but it definitely went far ahead my expectations."
         },
         {
             id:"8",
@@ -70,7 +77,8 @@ export default {
             price: "$ 8",
             rating:2.5,
             no_rarting: 7,
-            image:"/images/pant.jpg"
+            image:"/images/pant.jpg",
+            description:"My first 5 stars rating in Flipkart, worth every penny, the glass fits perfectly to your phone without any bubbles and the smoothness of the glass is simply wow, I didn't expected it would be so smooth at the given price but it definitely went far ahead my expectations."
         },
         {
             id:"9",
@@ -79,7 +87,8 @@ export default {
             price:"$ 9",
             rating:3.5,
             no_rarting: 5,
-            image:"/images/short.jpg"
+            image:"/images/short.jpg",
+            description:"My first 5 stars rating in Flipkart, worth every penny, the glass fits perfectly to your phone without any bubbles and the smoothness of the glass is simply wow, I didn't expected it would be so smooth at the given price but it definitely went far ahead my expectations."
         },
         {
             id:"10",
@@ -88,7 +97,8 @@ export default {
             price:"$ 10",
             rating:3.1,
             no_rarting: 3,
-            image:"/images/shart.jpg"
+            image:"/images/shart.jpg",
+            description:"My first 5 stars rating in Flipkart, worth every penny, the glass fits perfectly to your phone without any bubbles and the smoothness of the glass is simply wow, I didn't expected it would be so smooth at the given price but it definitely went far ahead my expectations."
         },
         {
             id:"11",
@@ -97,7 +107,8 @@ export default {
             price: "$ 11",
             rating:2.5,
             no_rarting: 7,
-            image:"/images/pant.jpg"
+            image:"/images/pant.jpg",
+            description:"My first 5 stars rating in Flipkart, worth every penny, the glass fits perfectly to your phone without any bubbles and the smoothness of the glass is simply wow, I didn't expected it would be so smooth at the given price but it definitely went far ahead my expectations."
         },
         {
             id:"12",
@@ -106,7 +117,8 @@ export default {
             price:"$ 12",
             rating:3.5,
             no_rarting: 5,
-            image:"/images/short.jpg"
+            image:"/images/short.jpg",
+            description:"My first 5 stars rating in Flipkart, worth every penny, the glass fits perfectly to your phone without any bubbles and the smoothness of the glass is simply wow, I didn't expected it would be so smooth at the given price but it definitely went far ahead my expectations."
         },
         {
             id:"13",
@@ -115,7 +127,8 @@ export default {
             price:"$ 13",
             rating:3.1,
             no_rarting: 3,
-            image:"/images/shart.jpg"
+            image:"/images/shart.jpg",
+            description:"My first 5 stars rating in Flipkart, worth every penny, the glass fits perfectly to your phone without any bubbles and the smoothness of the glass is simply wow, I didn't expected it would be so smooth at the given price but it definitely went far ahead my expectations."
         },
         {
             id:"14",
@@ -124,7 +137,8 @@ export default {
             price: "$ 14",
             rating:2.5,
             no_rarting: 7,
-            image:"/images/pant.jpg"
+            image:"/images/pant.jpg",
+            description:"My first 5 stars rating in Flipkart, worth every penny, the glass fits perfectly to your phone without any bubbles and the smoothness of the glass is simply wow, I didn't expected it would be so smooth at the given price but it definitely went far ahead my expectations."
         },
         {
             id:"15",
@@ -133,7 +147,8 @@ export default {
             price:"$ 15",
             rating:3.5,
             no_rarting: 5,
-            image:"/images/short.jpg"
+            image:"/images/short.jpg",
+            description:"My first 5 stars rating in Flipkart, worth every penny, the glass fits perfectly to your phone without any bubbles and the smoothness of the glass is simply wow, I didn't expected it would be so smooth at the given price but it definitely went far ahead my expectations."
         },
         {
             id:"16",
@@ -142,7 +157,8 @@ export default {
             price:"$ 16",
             rating:3.1,
             no_rarting: 3,
-            image:"/images/shart.jpg"
+            image:"/images/shart.jpg",
+            description:"My first 5 stars rating in Flipkart, worth every penny, the glass fits perfectly to your phone without any bubbles and the smoothness of the glass is simply wow, I didn't expected it would be so smooth at the given price but it definitely went far ahead my expectations."
         },
         {
             id:"17",
@@ -151,7 +167,8 @@ export default {
             price: "$ 17",
             rating:2.5,
             no_rarting: 7,
-            image:"/images/pant.jpg"
+            image:"/images/pant.jpg",
+            description:"My first 5 stars rating in Flipkart, worth every penny, the glass fits perfectly to your phone without any bubbles and the smoothness of the glass is simply wow, I didn't expected it would be so smooth at the given price but it definitely went far ahead my expectations."
         },
         {
             id:"18",
@@ -160,7 +177,8 @@ export default {
             price:"$ 18",
             rating:3.5,
             no_rarting: 5,
-            image:"/images/short.jpg"
+            image:"/images/short.jpg",
+            description:"My first 5 stars rating in Flipkart, worth every penny, the glass fits perfectly to your phone without any bubbles and the smoothness of the glass is simply wow, I didn't expected it would be so smooth at the given price but it definitely went far ahead my expectations."
         },
         {
             id:"19",
@@ -169,7 +187,8 @@ export default {
             price:"$ 19",
             rating:3.1,
             no_rarting: 3,
-            image:"/images/shart.jpg"
+            image:"/images/shart.jpg",
+            description:"My first 5 stars rating in Flipkart, worth every penny, the glass fits perfectly to your phone without any bubbles and the smoothness of the glass is simply wow, I didn't expected it would be so smooth at the given price but it definitely went far ahead my expectations."
         },
         {
             id:"20",
@@ -178,7 +197,8 @@ export default {
             price: "$ 20",
             rating:2.5,
             no_rarting: 7,
-            image:"/images/pant.jpg"
+            image:"/images/pant.jpg",
+            description:"My first 5 stars rating in Flipkart, worth every penny, the glass fits perfectly to your phone without any bubbles and the smoothness of the glass is simply wow, I didn't expected it would be so smooth at the given price but it definitely went far ahead my expectations."
         },
         {
             id:"21",
@@ -187,7 +207,8 @@ export default {
             price:"$ 21",
             rating:3.5,
             no_rarting: 5,
-            image:"/images/short.jpg"
+            image:"/images/short.jpg",
+            description:"My first 5 stars rating in Flipkart, worth every penny, the glass fits perfectly to your phone without any bubbles and the smoothness of the glass is simply wow, I didn't expected it would be so smooth at the given price but it definitely went far ahead my expectations."
         }
 ]
 }
