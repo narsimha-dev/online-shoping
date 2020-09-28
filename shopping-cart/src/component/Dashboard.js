@@ -1,20 +1,45 @@
 import React from 'react';
-import data from './data';
 import { Link } from 'react-router-dom';
+import { LoadProducts } from './LoadProducts';
 
-export const Dashboard=(props)=>{
-    return <ul class="products">
-     { data.products.map((product,index)=>{ return  <li class="product" key={index}>
-     <Link to={"/product/"+product.id}>
-         <img class= "product-image" src={product.image} alt="product"/>
-         </Link>
-    <div class="product-name"><Link to={"/product/"+product.id}>{product.name}</Link></div>
-    <div class="product-rating">{product.rating} 
-     <span className="fa fa-star checked"></span> starts ({product.no_rating} Reviews)</div>
-    <div class="product-brand">{product.brand}</div>
-    <div class="product-price">{product.price}</div>
-    </li>
-   })
-   };
-   </ul>
+const Dashboard=(props)=>{
+    const openSidebarMenu=()=>{
+        document.querySelector(".sidebar").classList.add("open");
+      }
+      const closeSidebarMenu=()=>{
+        document.querySelector(".sidebar").classList.remove("open");
+      }
+return  <div className="grid-container">
+<header className="header">
+    <div className="brand">
+        <button onClick={openSidebarMenu}>&#9776;</button>
+        <Link to="/">Amazon</Link>
+    </div>
+<div className="header-links">
+    <Link to="/products/cart">Cart</Link>{' '}
+    <Link to="/signin">Signin</Link>
+</div>
+</header>
+<aside className="sidebar">
+    <h3>Shoping Categories</h3>
+    <button className="sidebar-close-button" onClick={closeSidebarMenu}>x</button>
+    <ul>
+        <li>
+            <Link to="/">Pants</Link>
+        </li>
+        <li>
+            <Link to="/">Shirts</Link>
+        </li>
+    </ul>
+</aside>
+<main className="main">
+    <div className="content">
+        <LoadProducts/>
+</div>
+</main>
+<footer className="footer">
+    All rights received... 2020
+</footer>
+</div>
 }
+export default Dashboard;
